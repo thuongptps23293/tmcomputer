@@ -1,0 +1,73 @@
+#hm {
+    background-color: rgba(0, 0, 0, 0.916);
+    width: 600px;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 22px;
+    margin: auto;
+}
+
+h2 {
+    width: 599px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+
+
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+#dangky {
+    width: 600px;
+    margin: auto;
+}
+
+#dangky label {
+    padding-left: 10px;
+    width: 150px;
+    display: inline-block;
+    color: yellow;
+}
+
+#dangky .txt {
+    width: 400px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#dangky button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+.txt {
+    border-radius: 30px;
+    background-color: white;
+}
+
+#dangky button:hover{
+    background: rgb(255, 196, 0);
+}
+
+.st {
+    font-size: 17px;
+    left: 165px;
+    position: relative;
+    bottom: 45px;
+
+}
+
+.gc {
+    position: relative;
+    bottom: 95px;
+}
+
+.gcc {
+    position: relative;
+    bottom: 20px;
+}

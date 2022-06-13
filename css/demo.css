@@ -1,0 +1,289 @@
+* {box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+.header {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    max-height: 50px;
+    min-height: 50px;
+    background-color: rgb(29, 22, 22);
+    color: aliceblue;
+    text-align: right;
+}
+
+.header ul {
+    padding-top: 17px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+    text-align: left;
+    padding: 30px;
+}
+
+.header ul li :hover {
+    padding: 10px 5px 10px 5px;
+    font-weight: 700;
+    background: white;
+}
+
+.header ul li a {
+    color: rgb(249, 32, 13);
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    padding: 0px;
+    min-height: 70px;
+    background-color: black;
+    color: aliceblue;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.logo {
+    padding: 20px 20px 20px 20px;
+    max-width: 200px;
+
+    float: left;
+}
+
+#menu {
+
+    padding: 20px 20px 20px 20px;
+    margin-left: 150px;
+    max-width: 700px;
+    float: left;
+
+}
+
+#sub {
+
+    display: none;
+    position: absolute;
+    width: 130px;
+
+}
+
+#menu ul li {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#menu ul li:hover #sub {
+    display: block;
+    
+    background-color: black;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+#menu ul,
+#sub {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#dangnhap {
+
+    margin-left: 150px;
+
+    max-width: 300px;
+
+    float: left;
+}
+
+#dangnhap ul li:hover{
+    background: #FC0;
+}
+
+
+.menu ul li {
+    max-height: 70px;
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+#menu ul li a:hover {
+    /* background-color: rgb(214, 168, 43); */
+    color: #ff0000;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.h1 {
+    background-color: black;
+    height: 500px;
+
+}
+
+
+.h1 a {
+
+    margin: auto;
+    text-align: center;
+
+}
+
+.h1 img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.h2 {
+    width: 100%;
+    min-height: 500px;
+    background: white;
+
+    float: left;
+}
+
+.h3 {
+    background: black;
+    width: 100%;
+    min-height: 500px;
+    float: left;
+}
+
+.h3 h2 {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#h3 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#h3 a {
+    
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+#h3 a img:hover{
+  width: 377px;  
+}
+
+#h3 p {
+    color: aqua;
+    padding-top: 20px;
+}
+
+#h3 a p:hover {
+    color: yellow;
+}
+
+.h4 {
+    background: white;
+    width: 100%;
+    min-height: 500px;
+    float: left;
+}
+
+#h4 h2{
+    padding: 20px;
+}
+#h4 #h1 a img:hover{
+    width: 507px;
+}
+#h4 #h2 a img:hover{
+width: 677px;
+}
+#h1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+#h2{
+  
+    text-align: center;
+}
+.h5 {
+    width: 100%;
+    min-height: 500px;
+    background: black;
+    float: left;
+}
+
+.h5 h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.h5 a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: aqua;
+}
+
+.h5 a p:hover {
+    color: yellow;
+}
+
+
+.h6 {
+    width: 100%;
+    min-height: 500px;
+    background: white;
+float: left;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.h6{
+    width: 100%;
+    min-height: 500px;
+
+}
+.h6 a{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer aside {
+    width: 100%;
+    min-height: 170px;
+    background-color: rgb(21, 19, 19);
+}
+
+#footer {
+    position: relative;
+    width: 70%;
+    top: 15px;
+    left: 17%;
+    padding-bottom: 50px;
+}

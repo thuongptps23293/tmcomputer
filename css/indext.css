@@ -1,0 +1,437 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    background-color: rgb(205, 207, 209);
+
+}
+
+.header {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    max-height: 50px;
+    min-height: 50px;
+    background-color: rgb(29, 22, 22);
+    color: aliceblue;
+    text-align: right;
+}
+
+.header ul {
+    padding-top: 17px;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline;
+    text-align: left;
+    padding: 30px;
+}
+
+.header ul li :hover {
+    padding: 10px 5px 10px 5px;
+    font-weight: 700;
+    background: white;
+}
+
+.header ul li a {
+    color: rgb(249, 32, 13);
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    padding: 0px;
+    min-height: 70px;
+    background-color: black;
+    color: aliceblue;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.logo {
+    padding: 20px 20px 20px 20px;
+    max-width: 200px;
+
+    float: left;
+}
+
+#menu {
+
+    padding: 20px 20px 20px 20px;
+    margin-left: 150px;
+    max-width: 700px;
+    float: left;
+
+}
+
+#sub {
+
+    display: none;
+    position: absolute;
+    width: 130px;
+
+}
+
+#menu ul li {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#menu ul li:hover #sub {
+    display: block;
+    
+    background-color: black;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+#menu ul,
+#sub {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#dangnhap {
+
+    margin-left: 150px;
+
+    max-width: 300px;
+
+    float: left;
+}
+
+#dangnhap ul li:hover{
+    background: #FC0;
+}
+
+
+.menu ul li {
+    max-height: 70px;
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+#menu ul li a:hover {
+    /* background-color: rgb(214, 168, 43); */
+    color: #ff0000;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.menu img {
+    /* background-color: aqua;
+    max-height: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px; */
+}
+
+.menu img:hover {
+    width: 130px;
+}
+
+.menu ul {
+    /* padding: 0px 550px 80px 0px; */
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+
+
+}
+
+#img {
+   
+    max-height: 500px;
+}
+
+.img {
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.dieuhuong {
+    font-size: 40px;
+    color: rgb(153, 146, 137);
+    position: relative;
+    bottom: 270px;
+}
+
+.fa-chevron-circle-left {
+    padding: 0px 1750px 0px 0px;
+    text-align: left;
+}
+
+.fa-chevron-circle-right {
+    text-align: right;
+}
+
+.row {
+    border-radius: 20px;
+    max-width: 1277px;
+    min-height: 1290px;
+    background-color: rgb(10, 13, 30);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    padding: 20px 0px 0px 20px;
+    width: 100%;
+    color: rgb(228, 186, 18);
+    min-height: 30px;
+    border-bottom: 1px solid;
+}
+
+#ul {
+    
+   padding-left: 7px;
+    margin-top: 20px;
+    
+
+}
+
+.sp {
+
+    float: left;
+    width: 300px;
+    height: 300px;
+    min-height: 545px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+#button {
+    width: 80px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    background-color: #ff2f00;
+    border-radius: 5px;
+    border: 1px #FC0 solid;
+    padding: 5px 0px;
+    color: #EEE;
+
+}
+
+#button:hover {
+    background-color: #FC0;
+    color: #ff0000;
+}
+
+.sp .img {
+    width: calc(100% - 5px);
+    min-height: 220px;
+    text-align: center;
+
+}
+
+.sp .img img {
+    width: 100%;
+
+}
+
+
+
+/* .img img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+*/
+.sp a {
+
+    text-decoration: none;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.628);
+
+}
+
+.sp a :hover {
+    color: rgb(49, 146, 237);
+}
+
+.sp span {
+    color: #EEE;
+    padding: 5px;
+    background-color: #ff2f00;
+    border-radius: 5px;
+}
+
+.sp p {
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+
+.icon1 p {
+    padding-top: 17px;
+    padding-left: 130px;
+    text-align: left;
+
+}
+
+.icon1 img {
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.xem {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.xem a {
+
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(105, 166, 237);
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.xem a:hover {
+    color: rgb(232, 56, 25);
+}
+
+.xem {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.row2 {
+    /* border-radius: 20px;
+    max-width: 1300px;
+    min-height: 740px;
+    background-color: rgb(10, 13, 30);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; */
+    border-radius: 20px;
+    max-width: 1277px;
+    min-height: 500px;
+    background-color: rgb(10, 13, 30);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2 h2 {
+    color: #ff0000;
+}
+
+.row3 h2 {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+
+.row3 {
+    border-radius: 20px;
+    max-width: 1277px;
+    min-height: 500px;
+    background-color: rgb(10, 13, 30);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row3 .sp .img img {
+    width: calc(100% - 5px);
+    height: 250px;
+    text-align: center;
+}
+.row3 #ul {
+    
+   padding-right: 15px;
+     margin-top: 20px;
+    
+     
+ 
+ }
+
+
+.content {
+    max-width: 100%;
+    padding-top: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.footer aside {
+    width: 100%;
+    min-height: 170px;
+    background-color: rgb(21, 19, 19);
+}
+
+#footer {
+    position: relative;
+    width: 70%;
+    top: 15px;
+    left: 17%;
+    padding-bottom: 50px;
+}
+
+#button:hover {
+    background-color: #FC0;
+    color: #ff0000;
+}
+
+.img img:hover {
+    width: 102%;
+}
+
+.row3 .img img:hover {
+    width: 103%;
+}
+
+.sp a:hover {
+    color: rgb(101, 155, 226);
+}
